@@ -1,15 +1,25 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');@import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --risd-blue: #4551FC;
+  --color-pumpkin: #FF8C42;
+  --midnight-blue: #1D2376;
+  --seashell: #FCA345;
+
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-pumpkin: var(--color-pumpkin);
+  --color-risd-blue: var(--risd-blue);
+  --color-midnight-blue: var(--midnight-blue);
+  --color-seashell: var(--seashell);
+  --font-red-hat: 'Red Hat Display', sans-serif;
+  --font-geist: 'Geist', sans-serif;
+  --text-body: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
