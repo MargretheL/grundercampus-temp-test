@@ -6,7 +6,7 @@
   --risd-blue: #4551FC;
   --color-pumpkin: #FF8C42;
   --midnight-blue: #1D2376;
-  --seashell: #FCA345;
+  --seashell: #FFF3EF;
 
 }
 
@@ -19,7 +19,11 @@
   --color-seashell: var(--seashell);
   --font-red-hat: 'Red Hat Display', sans-serif;
   --font-geist: 'Geist', sans-serif;
-  --text-body: 16px;
+  --text-h1: 48px;
+  --text-h2: 40px;
+  --text-h3: 36px;
+  --text-body: 24px;
+  --text-detail: 22px;
 }
 
 @media (prefers-color-scheme: dark) {
