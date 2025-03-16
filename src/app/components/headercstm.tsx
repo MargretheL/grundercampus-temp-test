@@ -2,10 +2,10 @@ import React from "react";
 
 export default function HeaderCstm(){
   return (
-    <div className="flex flex-col items-center justify-center gap-[15px] relative">
+    <div className="flex flex-col items-center justify-center relative">
 
-      <p className="relative font-geist font-semibold text-transparent text-h2 md:text-[100px] text-center tracking-[0] leading-[45px] md:leading-[100px] ">
-        <span className="text-midnight-blue">
+      <p className="relative font-geist font-semibold text-transparent text-h2 lg:text-5xl xl:text-7xl  text-center tracking-[0] leading-[45px] lg:leading-[60px] xl:leading-[80px]">
+        <span className="text-midnight-blue z-10">
           Vi åpner snart dørene til
           <br />
         </span>
@@ -14,7 +14,7 @@ export default function HeaderCstm(){
       </p>
 
       <div className="flex items-center justify-center gap-2.5 relative">
-        <p className="relative font-geist font-medium text-midnight-blue text-lg md:text-3xl text-center tracking-[0] leading-[normal] w-4/6">
+        <p className="relative font-geist text-midnight-blue text-sm lg:text-md xl:text-2xl text-center tracking-[0]  w-4/6">
           Et lavterskel møtested for studenter i Bergen med en idé – et sted å
           møtes, teste og utvikle
         </p>
