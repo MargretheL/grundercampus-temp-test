@@ -6,7 +6,7 @@ import FooterCstm from './components/footercstm';
 
 export default function Page() {
   return (
-    <div className='bg-seashell h-[100svh] border-2'>
+    <div className='bg-seashell border-2'>
       <div className='bg-[url(/images/bg-small.png)] md:bg-[url(/images/bg-full.png)] bg-center h-full w-screen'>
         <div className="flex flex-col justify-between items-center pt-20 px-4 md:px-8  h-screen">
           <div className='flex flex-col gap-20 md:gap-15 xl:gap-20 items-center w-full '>
@@ -23,7 +23,7 @@ export default function Page() {
               <HeaderCstm />
             </div>
           </div>
-            <div className='justify-end pb-12 md:pb-0 xl:pb-0'>
+            <div className='justify-end pb-20 md:pb-0 xl:pb-0'>
               <FooterCstm />
             </div>    
           </div>
